@@ -1,4 +1,3 @@
-
 if (!_addChatMessage){
     _addChatMessage = addChatMessage;
     addChatMessage = function(data){
