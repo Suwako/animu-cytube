@@ -1,4 +1,4 @@
-if (!_addChatMessage){
+if (typeof _addChatMessage == "undefined"){
     _addChatMessage = addChatMessage;
     addChatMessage = function(data){
         // Save and restore these so this function has no side effects
